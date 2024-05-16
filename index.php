@@ -56,12 +56,12 @@
                 <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
                     <div class="mb-3">
                         <label for="username" class="form-label">Email address</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" id="username">
                         <div class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control">
+                        <input type="password" class="form-control" id="password">
                     </div>
                     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
                     <hr class="my-4">
